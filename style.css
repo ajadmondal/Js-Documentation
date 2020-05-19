@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Roboto+Condensed&display=swap');
+body{
+  display:flex;
+  flex-direction:row;
+  font-family: 'Merriweather', serif;
+}
+#navbar{
+  background:rgba(62, 189, 96,0.7);
+  width:330px;
+  min-width:300px;
+  height:100%;
+  position:fixed;
+  top:0px;
+  left:0px;
+  bottom:0px;
+  padding: 0px 0px 25px 0px;
+  overflow: scroll;
+}
+#navbar > div{
+  height:60px;
+  text-align:center;
+  padding-top:25px;
+  background:rgba(62, 189, 96,1);
+  margin-bottom:8px;
+}
+#main-doc{
+  //background:#f8f3eb;
+  //height:100%;
+  position:absolute;
+  left:325px;
+  max-left:250px;
+  top:0px;
+  bottom:0px;
+  padding: 45px 40px;
+  text-align: justify;
+  line-height:30px;
+}
+#main-doc > div{
+  margin:10px;
+  padding:25px;
+  background:rgba(62, 189, 96,0.15);
+  border-radius:13px;
+}
+header{
+  font-size:25px;
+}
+p{
+  padding-left:20px;
+}
+ul{
+  padding-left:70px;
+}
+code{
+    display: block;
+    text-align: left;
+    white-space: pre;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    font-size:15px;
+    background-color: #f7f7f7;
+    padding: 15px;
+    margin: 10px 10px 10px 40px;;
+    border-radius: 5px;
+}
+.main-section{
+  
+}
+.nav-link{
+  
+}
+#navbar > a {
+  outline: none;
+  text-decoration: none;
+  background: #f7f7f7;
+  border-color: #f6b73c;
+  display:inline-block;
+  width:230px;
+  height:50px;
+  padding-left: 25px;
+  padding-right: 3px;
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin:5px 45px;
+  border-radius:5px;
+  //text-align:left;
+  color: #004f15;
+  font-size: 20px;
+}
+#navbar >a:hover {
+  border-left: 5px solid;     
+  background: #CDFEAA;
+}
