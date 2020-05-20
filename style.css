@@ -5,7 +5,7 @@ body{
   font-family: 'Merriweather', serif;
 }
 #navbar{
-  background:rgba(62, 189, 96,0.7);
+  background:#f0ef65;
   width:330px;
   min-width:300px;
   height:100%;
@@ -20,25 +20,25 @@ body{
   height:60px;
   text-align:center;
   padding-top:25px;
-  background:rgba(62, 189, 96,1);
+  background:#ffde42;
   margin-bottom:8px;
 }
 #main-doc{
-  //background:#f8f3eb;
-  //height:100%;
-  position:absolute;
+  position:fixed;
   left:325px;
   max-left:250px;
+  right:0px;
   top:0px;
   bottom:0px;
   padding: 45px 40px;
   text-align: justify;
   line-height:30px;
+  overflow: scroll;
 }
 #main-doc > div{
   margin:10px;
   padding:25px;
-  background:rgba(62, 189, 96,0.15);
+  background:#ffffe8;
   border-radius:13px;
 }
 header{
@@ -59,7 +59,7 @@ code{
     word-wrap: normal;
     line-height: 2;
     font-size:15px;
-    background-color: #f7f7f7;
+    background-color: #eddfdf;
     padding: 15px;
     margin: 10px 10px 10px 40px;;
     border-radius: 5px;
@@ -89,6 +89,7 @@ code{
   font-size: 20px;
 }
 #navbar >a:hover {
-  border-left: 5px solid;     
-  background: #CDFEAA;
+  border-left: 5px solid;    
+  background:#f7f6c8;
+  border-color:#f5a31a;
 }
